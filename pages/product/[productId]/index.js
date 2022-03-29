@@ -4,7 +4,9 @@ const ProductDetails = () => {
     const router = useRouter();
     const ProductId = router.query.productId;
     return (
-        <h1>Product Details {ProductId} </h1>
+        <div>
+            <h1>Product Details {ProductId} </h1>
+        </div>
     )
 }
 
