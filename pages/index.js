@@ -21,6 +21,11 @@ const index = () => {
                     Product
                 </a>
             </Link>
+            <Link href='/posts'>
+                <a>
+                    Users
+                </a>
+            </Link>
             <button onClick={submitHandler}>
                 Place order
             </button>
