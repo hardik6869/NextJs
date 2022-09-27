@@ -26,8 +26,8 @@ const Comments = () => {
     const res = await fetch(`api/comments/${commentId}`, {
       method: "DELETE",
     });
-    const data = res.json();
-    fetchComments();
+
+    fetchComments(res);
   };
 
   return (
